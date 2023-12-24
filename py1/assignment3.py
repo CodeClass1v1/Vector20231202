@@ -16,3 +16,5 @@ total = int(quarters)*0.25 + int(dimes)*0.1 + int(nickels)*0.05 + int(pennies)*0
 cents = (total- int(total))*100
 
 print("The total is " + str(int(total) // 1) + " dollar(s) and "+str(round(cents)) + " cent(s)")
+
+

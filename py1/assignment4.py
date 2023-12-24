@@ -19,3 +19,5 @@ pennies = (total % 0.25 % 0.1 % 0.05)//0.01
 
 
 print(str(dollars) + " dollars and " + str(cents) + " cents are: " + str(quarters) + " quarters, " + str(dimes) + " dimes, " + str(nickels) + " nickels and " + str(pennies) + " pennies")
+
+
