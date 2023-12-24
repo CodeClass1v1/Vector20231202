@@ -9,4 +9,5 @@ Academic Misconduct.
 """
 name = input("What is your name? ")
 age= input("How old are you? ")
-print(name+','+age+" is taking this course")
+new_string= f'{name}, {age} is taking this course'
+print(new_string)
